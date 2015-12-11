@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "net.madran.bby261.sayisalLoto"
+        versionCode = "1" 
+        version     = "0.0.2" >
+
+    <!-- Standart Uygulama Verileri -->
+
+    <name>BBY Sözlük</name>
+
+    <description>
+        Sözlük Uygulaması
+    </description>
+
+    <author href="http://www.madran.net" email="orcunmadran@gmail.com">
+        Nazlıcan Aydın
+    </author>
+        
+    <!-- Derleme Platformu -->
+        
+    <gap:platform name="android" />
+        
+    <!-- Ek Özellikler -->
+
+    <!-- <preference name="orientation" value="landscape" /> -->
+    <preference name="fullscreen" value="false" />
+    <preference name="orientation" value="portrait" />
+        
+    <!-- Açılış Ekranı ve İkon -->
+     
+    <icon src="icon.png" />
+    <gap:splash src="splash.png" />
+    <preference name="splash-screen-duration" value="2000"/>
+        
+    <!-- Uygulama Hakları -->
+    
+    <preference name="permissions" value="none"/>
+        
+</widget>
